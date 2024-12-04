@@ -1,0 +1,8 @@
+{
+    "theme": "light",      // Default theme: "light" or "dark"
+    "recentFiles": [],     // List of recently opened files
+    "autosave": true,      // Automatically save changes
+    "fontSize": 16,        // Default font size in pixels
+    "lineNumbers": true    // Toggle display of line numbers
+  }
+  

@@ -1,0 +1,21 @@
+{
+  "themes": {
+    "light": {
+      "bgColor": "#f4f4f9",
+      "textColor": "#000000",
+      "headerBg": "#007bff",
+      "headerText": "#ffffff",
+      "editorBg": "#ffffff",
+      "editorText": "#000000"
+    },
+    "dark": {
+      "bgColor": "#1e1e1e",
+      "textColor": "#c9d1d9",
+      "headerBg": "#282c34",
+      "headerText": "#ffffff",
+      "editorBg": "#282c34",
+      "editorText": "#c9d1d9"
+    }
+  },
+  "default": "light"   
+}

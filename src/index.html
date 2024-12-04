@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelPad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="renderer.js" defer></script>
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">PixelPad</div>
+            <ul class="menu">
+                <li><button id="new-note">New Note</button></li>
+                <li><button id="open-note">Open Note</button></li>
+                <li><button id="save-note">Save Note</button></li>
+            </ul>
+            <div class="theme-toggle">
+                <button id="toggle-theme">Toggle Theme</button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Toolbar -->
+            <header class="toolbar">
+                <h1>Untitled Document</h1>
+            </header>
+            <!-- Editor -->
+            <section class="editor-container">
+                <textarea id="editor" placeholder="Start typing..."></textarea>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
